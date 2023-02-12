@@ -17,7 +17,7 @@ public class DemoClient {
         System.out.print("Input message: ");
         String message = reader.readLine();
 
-        System.out.println("\nChoose social network for posting message.\n" +
+        System.out.println("\nChoose social network for posting message \ud83d\ude08.\n" +
                 "1 - Facebook\n" +
                 "2 - Twitter");
         int choice = Integer.parseInt(reader.readLine());
@@ -28,6 +28,6 @@ public class DemoClient {
         } else if (choice == 2) {
             network = new Twitter(userName, password);
         }
-        network.post(message);
+        network.post(message + "\ud83d\ude08");
     }
 }
