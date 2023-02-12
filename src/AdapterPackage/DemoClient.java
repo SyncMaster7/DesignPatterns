@@ -1,13 +1,13 @@
 package AdapterPackage;
 
-public class Demo {
+public class DemoClient {
     public static void main(String[] args) {
 
         RoundHole hole = new RoundHole(5);
         RoundPeg rpeg = new RoundPeg(5);
 
         if (hole.fits(rpeg)) {
-            System.out.println("Round peg fits round hole.");
+            System.out.println("Round peg " + rpeg.getRadius() + " fits round hole " + hole.getRadius() + ".");
         }
 
         SquarePeg smallSqPeg = new SquarePeg(2);
@@ -18,10 +18,10 @@ public class Demo {
         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(smallSqPeg);
         SquarePegAdapter largeSqPegAdapter = new SquarePegAdapter(largeSqPeg);
         if (hole.fits(smallSqPegAdapter)) {
-            System.out.println("Square peg w2 fits round hole r5.");
+            System.out.println("Square peg " + smallSqPeg.getWidth() + " fits round hole " + hole.getRadius() + ".");
         }
         if (!hole.fits(largeSqPegAdapter)) {
-            System.out.println("Square peg w20 does not fit into round hole r5.");
+            System.out.println("Square peg " + largeSqPeg.getWidth() + " does not fit into round hole " + hole.getRadius() + ".");
         }
     }
 }
