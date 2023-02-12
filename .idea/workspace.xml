@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3083ce4e-73bb-4e0d-96af-92d0f7308875" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPackage/DemoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPackage/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPackage/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPackage/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPackage/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="3083ce4e-73bb-4e0d-96af-92d0f7308875" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPackage/DemoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPackage/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPackage/SocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethodPackage/Twitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +35,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TemplateMethodPackage.DemoClient">
     <configuration name="DemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterPackage.DemoClient" />
       <module name="DesignPatterns" />
@@ -59,8 +53,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateMethodPackage.DemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TemplateMethodPackage.DemoClient" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TemplateMethodPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateMethodPackage.DemoClient" />
         <item itemvalue="Application.DemoClient" />
       </list>
     </recent_temporary>
@@ -74,6 +82,17 @@
       <option name="presentableId" value="Default" />
       <updated>1676190086909</updated>
     </task>
+    <task id="LOCAL−00001" summary="Update">
+      <created>1676194553744</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1676194553744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
